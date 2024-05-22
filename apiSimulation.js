@@ -2,7 +2,7 @@ const generateAvailableTimesByDate = () => {
     const availableTimes = ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
     const today = new Date();
     const endDate = new Date(today);
-    endDate.setFullYear(today.getFullYear() + 3);
+    endDate.setFullYear(today.getFullYear() + 6);
 
     let currentDate = new Date(today);
     const availableTimesByDate = {};
